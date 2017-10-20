@@ -237,71 +237,67 @@ body {
     color: black!important
 }
 
-#casestudiesdesktop {
-    padding-top: 50px;
-    padding-bottom: 130px;
-}
+/**DESKTOP HEADER**/
 
-#casestudiesdesktop h1 {
-    font-family: "europa";
-    line-height: 60px;
+#welcomedesktop {
+   font-family: 'europa';
     font-size: 50px;
-    color: #FFF;
-    font-weight: 700;
-    text-align: center;
-}
-
-#casestudiesdesktop p {
-    font-family: "europa";
-    font-size: 22px;
-    color: #727278;
+    color: rgba(255,255,255,0.5);
     font-weight: 100;
-    text-align: center;
+    text-align: left;
+    line-height: 70px;
+    padding-bottom: 220px;
+    padding-top: 100px;
 }
 
-
-#casestudiesmobile {
-    padding-top: 50px;
-    padding-bottom: 130px;
-}
-
-#casestudiesmobile h1 {
-    font-family: "europa";
-    line-height: 60px;
-    font-size: 38px;
-    color: #FFF;
+#welcomedesktop span {
     font-weight: 700;
-    text-align: center;
+    color: #fff;
 }
 
-#casestudiesmobile p {
-    font-family: "europa";
-    font-size: 22px;
-    color: #727278;
+
+
+
+
+
+
+
+/**TABLET HEADER**/
+
+#welcometablet {
+    font-family: 'europa';
+    font-size: 45px;
+    color: rgba(255,255,255,0.5);
     font-weight: 100;
-    text-align: center;
+    text-align: left;
+    line-height: 62px;
+    padding-bottom: 220px;
+    padding-top: 100px;
 }
 
-#casestudiestablet {
-    padding-top: 50px;
-    padding-bottom: 130px;
-}
-
-#casestudiestablet h1 {
-    font-family: "europa";
-    line-height: 60px;
-    font-size: 46px;
-    color: #FFF;
+#welcometablet span {
     font-weight: 700;
-    text-align: center;
+    color: #fff;
 }
 
-#casestudiestablet p {
-    font-family: "europa";
-    font-size: 22px;
-    color: #727278;
+
+
+/**MOBILE HEADER**/
+
+#welcomemobile {
+    font-family: 'europa';
+    font-size: 40px;
+    color: rgba(255,255,255,0.5);
     font-weight: 100;
-    text-align: center;
+    text-align: left;
+    line-height: 57px;
+    padding-bottom: 160px;
+    padding-top: 75px;
+}
+
+#welcomemobile span {
+   font-weight: 700;
+    color: #fff;
 }
 
 
