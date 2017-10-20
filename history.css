@@ -129,8 +129,8 @@ html {
 }
 
 body {
-    font-family: europa, sans-serif;
-    background: url(bg.png);
+    font-family: 'europa', sans-serif;
+    background: #14141D;
 }
 
 .jumbotron {
