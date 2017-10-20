@@ -241,7 +241,10 @@ body {
 
 .sr-only {
     background-color: transparent;
+    color: #fff;
 }
+
+
 
 .navbar-toggle {
     background-color: transparent!important;
@@ -249,7 +252,11 @@ body {
     border-radius: 0px!important;
     height: 38px;
     padding-bottom: 40px;
-    color: #333
+    color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #fff;
 }
 
 #topRaccoonlogotext {
@@ -344,8 +351,8 @@ body {
     font-weight: 100;
     text-align: left;
     line-height: 70px;
-    padding-bottom: 20px;
-    padding-top: 100px;
+    margin-bottom: 20px;
+    margin-top: 80px;
 }
 
 #welcomedesktop span {
@@ -356,7 +363,7 @@ body {
 
 .thumbnails3 {
     text-align: left;
-    margin-bottom: 220px;
+    margin-bottom: 200px;
 }
 
 .thumbnails3 .thumbnail {
@@ -384,7 +391,7 @@ body {
     text-align: left;
     line-height: 62px;
     padding-bottom: 20px;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 #welcometablet span {
@@ -404,7 +411,7 @@ body {
     text-align: left;
     line-height: 57px;
     padding-bottom: 20px;
-    padding-top: 75px;
+    padding-top: 30px;
 }
 
 #welcomemobile span {
@@ -545,7 +552,7 @@ body {
 }
 
 #button-big3 a {
-    color: #fff
+    color: #fff;
 }
 
 
