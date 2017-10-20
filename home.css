@@ -14,8 +14,6 @@ font-family: "europa";
 src: url(https://use.typekit.net/ipu2smj.js);
 }
 
-<script src="https://use.typekit.net/ipu2smj.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 
 .navbar {
@@ -244,7 +242,7 @@ body {
 
 
 .navbar-custom li a {
-    font-family: "rift-soft";
+    font-family: 'rift-soft';
     font-size: 20px;
     color: #fff!important;
     font-weight: 100
