@@ -293,10 +293,15 @@ body {
     font-family: europa;
     padding-top: 100px;
     padding-bottom: 0px;
-    line-height: 60px;
+    line-height: 70px;
     font-size: 38px;
     color: #FFF;
     font-weight: 300
+}
+
+#welcomedesktop span {
+    font-size: 65px;
+    line-height: 15px;
 }
 
 #sayhey {
@@ -308,34 +313,16 @@ body {
 }
 
 
-#welcometablet {
-    font-family: europa;
-    padding-top: 80px;
-    padding-bottom: 0px;
-    line-height: 56px;
-    font-size: 34px;
-    color: #FFF;
-    font-weight: 300;
-        text-align: center;
-}
-
-#sayheytablet {
-    padding-bottom: 150px;
-    font-weight: 300;
-    letter-spacing: 0;
-    color: #fff;
-    font-family: 'rift';
-    text-align: center;
-}
 
 #availability {
-    border: 1px solid #727278;
+    border: 0px solid #727278;
     border-radius: 2px;
-    background-color: #14141D;
-    padding-top: 9px;
+    background-color: rgba(255,255,255,0.07);
+    padding-top: 11px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 11px
+    padding-bottom: 13px;
+    margin-top: 5px;
 }
 
 #availability:hover {
@@ -345,26 +332,6 @@ body {
 
 
 
-#availabilitymob {
-    border: 1px solid #727278;
-    border-radius: 2px;
-    background-color: #14141D;
-    padding-top: 9px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 11px;
-    font-size: 16px;
-}
-
-
-#sayheymob {
-    padding-bottom: 140px;
-    font-weight: 300;
-    letter-spacing: 0;
-    color: #fff;
-    font-family: 'rift';
-        text-align: center;
-}
 
 
 span2 {
@@ -380,44 +347,92 @@ span3 {
 
 .available {
     font-family: 'rift';
-    font-weight: 700
+    font-weight: 700;
+    color: #45B74D;
 }
 
-span3 .getintouch {
-    display: none;
-}
-
-span3:hover .available {
-    display: none;
-}
-
-span3:hover .getintouch {
-    display: inline;
-    color: #FBC010;  
-}
 
 
 #welcomedesktop span {
     font-weight: 700;
 }
 
-#welcometablet span {
+
+/**TABLET HEADER**/
+
+#welcometablet {
     font-weight: 700;
-}
-#welcomemobile {
-    text-align: center;
-    font-family: europa;
-    font-size: 30px;
-    color: #FFF;
-    padding-top: 30px;
-    line-height: 42px;
-    font-weight: 300;
-    margin-bottom: 10px
+    text-align: left;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    font-size: 60px;
+     color: #FFF;
 }
 
-#welcomemobile span {
-    font-weight: 700;
+#welcometableth2 {
+    font-family: 'europa';
+    line-height: 34px;
+    font-size: 34px;
+    color: #FFF;
+    font-weight: 300;
+        text-align: left;
+    padding-bottom: 10px;
 }
+
+#sayheytablet {
+    padding-bottom: 150px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #fff;
+    font-family: 'rift';
+    text-align: left;
+}
+
+
+
+/**MOBILE HEADER**/
+
+#welcomemobileh2 {
+    text-align: left;
+    font-family: "europa";
+    font-weight: 100;
+    font-size: 27px;
+    color: #FFF;
+    line-height: 38px;
+    font-weight: 300;
+    margin-bottom: 23px
+}
+
+#welcomemobile {
+    padding-top: 25px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFF;
+}
+
+#sayheymob {
+    padding-bottom: 140px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #fff;
+    font-family: 'rift';
+        text-align: left;
+}
+
+
+#availabilitymob {
+     border: 0px solid #727278;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,0.07);
+    padding-top: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 13px;
+    margin-top: 5px;
+}
+
+
+/**INTRO**/
 
 #intro {
     background-color: #14141D
@@ -914,8 +929,6 @@ a:hover,
 button:focus,button:active {
    outline: none !important;
 }
-
-
 
 
 
