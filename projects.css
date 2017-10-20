@@ -232,13 +232,13 @@ body {
 
 #casestudiesdesktop {
     padding-top: 50px;
-    padding-bottom: 130px;
+    padding-bottom: 110px;
 }
 
 #casestudiesdesktop h1 {
     font-family: "europa";
     line-height: 60px;
-    font-size: 38px;
+    font-size: 50px;
     color: #FFF;
     font-weight: 700;
     text-align: center;
@@ -246,9 +246,10 @@ body {
 
 #casestudiesdesktop p {
     font-family: "europa";
-    font-size: 22px;
-    color: #727278;
+    font-size: 26px;
+    color: rgba(255,255,255,0.8);
     font-weight: 100;
+    line-height: 60px;
     text-align: center;
 }
 
@@ -270,7 +271,7 @@ body {
 #casestudiesmobile p {
     font-family: "europa";
     font-size: 22px;
-    color: #727278;
+    color: rgba(255,255,255,0.8);
     font-weight: 100;
     text-align: center;
 }
@@ -283,7 +284,7 @@ body {
 #casestudiestablet h1 {
     font-family: "europa";
     line-height: 60px;
-    font-size: 38px;
+    font-size: 45px;
     color: #FFF;
     font-weight: 700;
     text-align: center;
@@ -291,8 +292,9 @@ body {
 
 #casestudiestablet p {
     font-family: "europa";
-    font-size: 22px;
-    color: #727278;
+    font-size: 24px;
+    color: rgba(255,255,255,0.8);
+    line-height: 40px;
     font-weight: 100;
     text-align: center;
 }
