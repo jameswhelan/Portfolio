@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Twitter" transform="translate(-1247.000000, -892.000000)" fill="#FFFFFF">
+            <g id="Monogram">
+                <g id="Mail" transform="translate(1247.000000, 892.000000)">
+                    <rect id="Rectangle" fill-opacity="0.104081748" x="0" y="0" width="70" height="70" rx="5"></rect>
+                    <g transform="translate(15.000000, 23.000000)" id="Group" fill-rule="nonzero">
+                        <g>
+                            <g>
+                                <path d="M31.0178815,11.250625 L35.9578022,18.0483036 C36.9697,19.4541071 34.8621663,20.9733929 33.8496446,19.5859375 L29.0043804,12.914375 L21.4338641,19.1690179 C20.949975,19.5633482 20.2609967,19.5642857 19.7834359,19.1714286 L12.1087707,12.9237054 L7.17339565,19.6298214 L7.17687174,19.6333482 C6.16131957,21.0096429 4.04295652,19.4912054 5.07905326,18.0829464 L10.0872033,11.2761607 L0.331075,3.33107143 L0.331075,23.4309821 C0.331075,24.1435268 0.913720652,24.7358929 1.63233478,24.7358929 L39.3673978,24.7358929 C40.0827141,24.7358929 40.6688804,24.1489732 40.6688804,23.4309821 L40.6688804,3.27665179 L31.0178815,11.250625 Z" id="Shape"></path>
+                                <polygon id="Shape" points="40.2204207 0.264107143 0.691652174 0.264107143 20.597063 16.4758929"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
