@@ -251,25 +251,25 @@ body {
 
 
 #casestudies:hover {
-    color: #DC5C37!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 #bloglink:hover {
-    color: #55B0E7!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 #contactlink:hover {
-    color: #50AE98!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 
 
 #home:hover {
-    color: #EABA43!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 #casestudies {
-    color: #EABA43;
+    color: rgba(255,255,255,0.6);
 }
 
 .nav .navbar-nav .navbar-right {
