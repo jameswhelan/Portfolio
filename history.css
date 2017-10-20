@@ -130,7 +130,7 @@ html {
 
 body {
     font-family: 'europa', sans-serif;
-    background: #14141D;
+    background: #0E0E17;
 }
 
 .jumbotron {
@@ -877,9 +877,8 @@ padding-right:90px;
 .timeline > li.timeline-inverted {
 padding-left:90px;
 }
-
-
 }
+
 .timeline > li > .timeline-badge {
   color: #fff;
   width: 50px;
