@@ -4,6 +4,15 @@
     }
 }
 
+@font-face {
+font-family: "rift-soft";
+src: url(https://use.typekit.net/ipu2smj.js);
+}
+
+@font-face {
+font-family: "europa";
+src: url(https://use.typekit.net/ipu2smj.js);
+}
 
 
 .navbar {
@@ -121,7 +130,6 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 
 
 #griddy {
