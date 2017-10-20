@@ -202,7 +202,7 @@ body {
 }
 
 .navbar-custom li a {
-    font-family: "rift-soft";
+    font-family: "rift";
     font-size: 20px;
     color: #fff!important;
     font-weight: 100
@@ -315,7 +315,7 @@ color: #EABA43;
 
 
 #what {
-font-family: rift-soft;
+font-family: 'rift';
 font-size: 24px;
 color: #FFFFFF;
 padding-top: 12px;
@@ -387,7 +387,7 @@ text-align: center;
 }
 
 #intro-text h2 {
-    font-family: rift-soft;
+    font-family: 'rift';
     font-weight: 500;
     margin-bottom: 20px;
     text-align: center;
@@ -574,7 +574,7 @@ a:hover,
     font-weight: 500;
     line-height: 35px;
     color: #FBC010;
-    font-family: rift-soft;
+    font-family: 'rift';
 }
 
 #signoff span {
@@ -590,7 +590,7 @@ a:hover,
 #footertextmob {
     text-align: center;
     margin-top: color: #FBC010;
-    font-family: rift-soft;
+    font-family: 'rift';
 }
 
 #signoffmob {
@@ -599,7 +599,7 @@ a:hover,
     font-weight: 300;
     line-height: 35px;
     color: #FBC010;
-    font-family: rift-soft;
+    font-family: 'rift';
 }
 
 
@@ -627,7 +627,7 @@ a:hover,
 }
 
 #rights {
-    font-family: rift-soft;
+    font-family: 'rift';
     font-weight: 100
 }
 
@@ -696,7 +696,7 @@ a:hover,
 
 #submit {
     background-color: rgba(255,255,255,0.1);
-    font-family: 'rift-soft';
+    font-family: 'rift';
     font-weight: 700;
     padding-top: 18px;
     padding-bottom: 18px;
