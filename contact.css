@@ -248,43 +248,82 @@ body {
     color: black!important
 }
 
-#casestudiesdesktop {
-   font-family: "Europa";
-    padding-top: 150px;
-    padding-bottom: 250px;
-    line-height: 60px;
-    font-size: 60px;
-    color: #FFF;
+/**DESKTOP HEADER**/
+
+#welcomedesktop {
+   font-family: 'europa';
+    font-size: 50px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 100;
+    text-align: left;
+    line-height: 70px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+#welcomedesktop span {
     font-weight: 700;
-    text-align: center;
+    color: #fff;
 }
 
 
-#casestudiesmobile {
-    text-align: center;
-    font-family: "Europa";
-    color: #FFF;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 120px;
-    line-height: 50px;
-    font-weight: 700;
-    margin-bottom: 30px
+.thumbnails3 {
+    text-align: left;
+    margin-bottom: 220px;
+}
+
+.thumbnails3 .thumbnail {
+    display: inline-block;
+    margin-right: 6px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
 
-#casestudiestablet {
-    text-align: center;
-    font-family: "Europa";
-    color: #FFF;
-    padding-top: 30px;
-    padding-bottom: 120px;
-    line-height: 50px;
-    font-weight: 700;
+
+
+
+
+/**TABLET HEADER**/
+
+#welcometablet {
+    font-family: 'europa';
     font-size: 45px;
-    margin-bottom: 30px
+    color: rgba(255,255,255,0.5);
+    font-weight: 100;
+    text-align: left;
+    line-height: 62px;
+    padding-bottom: 20px;
+    padding-top: 100px;
 }
 
+#welcometablet span {
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+/**MOBILE HEADER**/
+
+#welcomemobile {
+    font-family: 'europa';
+    font-size: 40px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 100;
+    text-align: left;
+    line-height: 57px;
+    padding-bottom: 20px;
+    padding-top: 75px;
+}
+
+#welcomemobile span {
+   font-weight: 700;
+    color: #fff;
+}
 
 
 
@@ -910,3 +949,143 @@ li {
     color: #fff;
 }
 
+/* Outline In */
+.hvr-outline-in-1 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-outline-in-1:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #ea4c89 solid 1px;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-in-1:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+  top: -0px;
+  right: -0px;
+  bottom: -0px;
+  left: -0px;
+  opacity: 1;
+}
+
+
+
+
+/* Outline In */
+.hvr-outline-in-2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-outline-in-2:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #45B74D solid 1px;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-in-2:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+  top: -0px;
+  right: -0px;
+  bottom: -0px;
+  left: -0px;
+  opacity: 1;
+}
+
+
+
+
+/* Outline In */
+.hvr-outline-in-3 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-outline-in-3:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #28AAE1 solid 1px;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-in-3:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+  top: -0px;
+  right: -0px;
+  bottom: -0px;
+  left: -0px;
+  opacity: 1;
+}
+
+
+
+
+/* Outline In */
+.hvr-outline-in-4 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-outline-in-4:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #F47720 solid 1px;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-in-4:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+  top: -0px;
+  right: -0px;
+  bottom: -0px;
+  left: -0px;
+  opacity: 1;
+}
