@@ -219,23 +219,23 @@ body {
 }
 
 #dribbblelink:hover {
-    color: #D332B2!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 
 #bloglink:hover {
-    color: #55B0E7!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 
 
 
 #home:hover {
-    color: #EABA43!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 #casestudies:hover {
-    color: #DC5C37!important;
+    color: rgba(255,255,255,0.6)!important;
 }
 
 #contactlink {
@@ -338,8 +338,6 @@ color: #EABA43;
 }
 
 
-
-
 #titlespan {
     padding-bottom: 10px;
     padding-top: 0px;
@@ -350,6 +348,7 @@ color: #EABA43;
 font-family: "Europa";
 font-weight: 100;
 font-size: 32px;
+line-height: 45px;
 color: #EABA43;
     padding-top: 120px;
 }
@@ -371,8 +370,6 @@ color: #727278;
     left
 }
 
-
-
 #How {
 text-align: center;
     padding-top: 20px;
@@ -388,8 +385,6 @@ text-align: center;
 #howbold {
     color: #fff;
 }
-
-
 
 #tagslist {
     border-radius: 4px;
@@ -410,9 +405,6 @@ text-align: center;
     letter-spacing: .5px;
     color: #4B4B52;
 }
-
-
-
 
 
 #intro {
@@ -484,9 +476,6 @@ hr {
     height: 2px;
     background-color: black
 }
-
-
-
 
 
 .item__overlay {
@@ -644,7 +633,6 @@ a:hover,
 }
 
 
-
 #signoffmob span {
     font-weight: 500;
     padding-bottom: 4px;
@@ -674,9 +662,6 @@ a:hover,
 
 
 
-
-
-
 #formbackground {
     background-color: #0E0E17 ;
     border: none;
@@ -689,10 +674,10 @@ a:hover,
 }
 
 #name {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.05);
     padding-top: 28px;
     padding-bottom: 30px;
-    border: none;
+    border: 1px solid #fff;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
@@ -702,10 +687,10 @@ a:hover,
 }
 
 #email {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.05);
     padding-top: 28px;
     padding-bottom: 30px;
-    border: none;
+    border: 1px solid #fff;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
@@ -715,9 +700,9 @@ a:hover,
 }
 
 #message {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.05);
     padding-top: 18px;
-    border: none;
+    border: 1px solid #fff;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
@@ -736,7 +721,7 @@ a:hover,
 }
 
 #submit {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.05);
     font-family: 'rift';
     font-weight: 700;
     padding-top: 18px;
@@ -757,7 +742,7 @@ a:hover,
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 3px;
-    border: 1px solid #45B74D;
+    border: 1px solid #FBC010;
     font-weight: 300;
     background-color: #0E0E17;
     font-size: 16px;
@@ -781,7 +766,7 @@ a:hover,
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 3px;
-    border: 1px solid #28AAE1;
+    border: 1px solid #0FB197;
     margin-top: 20px;
     font-weight: 300;
     background-color: #0E0E17;
@@ -812,7 +797,7 @@ a:hover,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #45B74D;
+  background: #FBC010;
     border-radius: 0px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -832,9 +817,6 @@ a:hover,
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-
-
-
 
 
 .hvr-sweep-to-right2 {
@@ -857,7 +839,7 @@ a:hover,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #28AAE1;
+  background: #0FB197;
     border-radius: 0px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -877,9 +859,6 @@ a:hover,
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-
-
-
 
 
 .hvr-sweep-to-right3 {
@@ -924,10 +903,6 @@ a:hover,
 }
 
 
-
-
-
-
 #call2 a {
     color: #fff;
 }
@@ -962,7 +937,7 @@ li {
   pointer-events: none;
   content: '';
   position: absolute;
-  border: #ea4c89 solid 1px;
+  border: #fff solid 1px;
   border-radius: 5px;
   top: -8px;
   right: -8px;
@@ -998,7 +973,7 @@ li {
   pointer-events: none;
   content: '';
   position: absolute;
-  border: #45B74D solid 1px;
+  border: #fff solid 1px;
   border-radius: 5px;
   top: -8px;
   right: -8px;
@@ -1034,7 +1009,7 @@ li {
   pointer-events: none;
   content: '';
   position: absolute;
-  border: #28AAE1 solid 1px;
+  border: #fff solid 1px;
   border-radius: 5px;
   top: -8px;
   right: -8px;
@@ -1070,7 +1045,7 @@ li {
   pointer-events: none;
   content: '';
   position: absolute;
-  border: #F47720 solid 1px;
+  border: #fff solid 1px;
   border-radius: 5px;
   top: -8px;
   right: -8px;
