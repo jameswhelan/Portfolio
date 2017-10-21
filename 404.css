@@ -118,47 +118,68 @@ overlay {
     color: black!important
 }
 
-#casestudiesdesktop {
-    font-family: europa;
-    padding-top: 200px;
-    padding-bottom: 0px;
-    line-height: 60px;
-    font-size: 38px;
-    color: #FFF;
+/**DESKTOP HEADER**/
+
+#welcomedesktop {
+   font-family: 'europa';
+    font-size: 50px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 100;
+    text-align: left;
+    line-height: 70px;
+    padding-bottom: 220px;
+    padding-top: 100px;
+}
+
+#welcomedesktop span {
     font-weight: 700;
-    text-align: center;
-}
-
-#thanksh2 {
     color: #fff;
-    text-align: center;
-    font-weight: 300;
-    font-size: 26px;
-    margin-bottom: 300px;
-}
-
-#thanksh2mob {
-    color: #fff;
-    text-align: center;
-    font-weight: 300;
-    font-size: 24px;
-    margin-bottom: 140px;
 }
 
 
-#casestudiesmobile {
-    text-align: center;
-    font-family: europa;
-    color: #FFF;
-    padding-top: 30px;
-    padding-bottom: 0px;
-    line-height: 50px;
+
+
+
+
+
+
+/**TABLET HEADER**/
+
+#welcometablet {
+    font-family: 'europa';
+    font-size: 45px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 100;
+    text-align: left;
+    line-height: 62px;
+    padding-bottom: 220px;
+    padding-top: 100px;
+}
+
+#welcometablet span {
     font-weight: 700;
-    margin-bottom: 0px;
-    font-size: 30px;
+    color: #fff;
 }
 
 
+
+/**MOBILE HEADER**/
+
+#welcomemobile {
+    font-family: 'europa';
+    font-size: 40px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 100;
+    text-align: left;
+    line-height: 57px;
+    padding-bottom: 160px;
+    padding-top: 75px;
+}
+
+#welcomemobile span {
+   font-weight: 700;
+    color: #fff;
+}
 
 
 
